@@ -85,15 +85,15 @@ Based on our simulation results:
 ---
 
 - [Name 1] - [ID 1] - Contribution: Scheduling Logic
-> 🎓 **Academic Project:** Submitted for the Operating Systems Course at the Faculty of Computers and Artificial Intelligence - Helwan University.
+
 - [Name 2] - [ID 2] - Contribution: GUI & Interface
 
 - [Name 3] - [ID 3] - Contribution: Metrics Calculation
----
+
 - [Name 4] - [ID 4] - Contribution: Validation & Security
 
 - [Name 5] - [ID 5] - Contribution: Auto-Analysis Engine
-## 📌 Project Overview
+
 - [Name 6] - [ID 6] - Contribution: Documentation & GitHub
-This project is a web-based CPU Scheduling Simulator designed to compare the performance, efficiency, and fairness of two fundamental scheduling algorithms:
+
 - [Name 7] - [ID 7] - Contribution: Test Scenarios
