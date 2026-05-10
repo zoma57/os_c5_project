@@ -1,11 +1,11 @@
-# 🚀 OS CPU Scheduling Simulator (Project C5)
+# OS CPU Scheduling Simulator (Project C5)
 **Comparative Analysis: Round Robin (RR) vs. Preemptive SJF (SRTF)**
 
 > 🎓 **Academic Project:** Submitted for the Operating Systems Course at the Faculty of Computers and Artificial Intelligence - Helwan University.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This project is a web-based CPU Scheduling Simulator designed to compare the performance, efficiency, and fairness of two fundamental scheduling algorithms:
 1. **Round Robin (RR)** 2. **Shortest Job First (SJF) - Preemptive Mode (SRTF)**
 
@@ -13,7 +13,7 @@ The simulator provides a dynamic Graphical User Interface (GUI) to input process
 
 ---
 
-## ⚠️ Key Assumptions & Rubric Compliance
+## Key Assumptions & Rubric Compliance
 As per the project's specific notes and evaluation rubric:
 * **Preemptive SJF:** We implemented the *Preemptive* version of SJF (also known as SRTF). If a new process arrives with a shorter remaining burst time than the currently running process, the CPU will preempt the current process.
 * **Unified Workload:** The simulator strictly evaluates both algorithms against the *exact same workload* simultaneously to ensure a 100% fair comparison.
@@ -21,7 +21,7 @@ As per the project's specific notes and evaluation rubric:
 
 ---
 
-## 🏗️ Project Architecture & Repository Structure
+## Project Architecture & Repository Structure
 To maintain the "Separation of Concerns" principle, the project is structured using an MVC-like pattern:
 
     os_c5_project/
@@ -42,7 +42,7 @@ To maintain the "Separation of Concerns" principle, the project is structured us
 
 ---
 
-## 📊 Calculated Metrics
+## Calculated Metrics
 For every simulation, the system accurately computes:
 * **Response Time (RT):** Time from arrival to the first CPU access.
 * **Completion Time (CT):** The exact time the process terminates.
@@ -52,13 +52,13 @@ For every simulation, the system accurately computes:
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 * **Backend Logic:** `PHP 8+` (Chosen for robust array manipulation and server-side logic).
 * **Frontend/GUI:** `HTML5`, `CSS3`, `Vanilla JavaScript` (For dynamic row additions and test scenario loading).
 
 ---
 
-## 🚀 How to Run the Project (Local Environment)
+## How to Run the Project (Local Environment)
 Since this project relies on server-side PHP processing, it requires a local server environment.
 
 1. **Install XAMPP:** Download and install XAMPP.
@@ -68,7 +68,7 @@ Since this project relies on server-side PHP processing, it requires a local ser
 
 ---
 
-## 🧪 Included Test Scenarios
+## Included Test Scenarios
 To demonstrate the strengths and weaknesses of each algorithm, we included built-in test scenarios in the GUI:
 
 1. **Scenario A (Normal Case):** Standard varied arrivals to check basic correctness.
@@ -77,23 +77,23 @@ To demonstrate the strengths and weaknesses of each algorithm, we included built
 
 ---
 
-## 🧠 Conclusion: Fairness vs. Efficiency Trade-off
+## Conclusion: Fairness vs. Efficiency Trade-off
 Based on our simulation results:
 * **Preemptive SJF (SRTF)** provides maximum *efficiency* by yielding the lowest Average Waiting Time. However, it severely lacks *fairness*, as longer jobs can face infinite delays (Starvation).
 * **Round Robin (RR)** guarantees *fairness* and an excellent Response Time for all processes, but at the cost of slightly higher average waiting times.
 
 ---
 
-- [Name 1] - [ID 1] - Contribution: Scheduling Logic
+- [Hazem Mohamed Ahmed Abd El Kader] - [20240271] - Contribution: Scheduling Logic
 
-- [Name 2] - [ID 2] - Contribution: GUI & Interface
+- [Hazem Mohamed Ahmed Abd El Kader] - [20240271] - Contribution: GUI & Interface
 
-- [Name 3] - [ID 3] - Contribution: Metrics Calculation
+- [Abd El Rahman Ahmed El Sayd] - [20240516] - Contribution: Metrics Calculation
 
-- [Name 4] - [ID 4] - Contribution: Validation & Security
+- [Ali Mohamed Ali Ahmed] - [20240605] - Contribution: Validation & Security
 
-- [Name 5] - [ID 5] - Contribution: Auto-Analysis Engine
+- [Abdallah Mohamed Abdo Mahsob] - [20240580] - Contribution: Auto-Analysis Engine
 
-- [Name 6] - [ID 6] - Contribution: Documentation & GitHub
+- [Filopater Ayman Nabil Mikhail] - [20240698] - Contribution: Documentation & GitHub
 
-- [Name 7] - [ID 7] - Contribution: Test Scenarios
+- [Abd El Rahman Medhat Abd El Hameed] - [20240560] - Contribution: Test Scenario
