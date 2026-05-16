@@ -1,7 +1,7 @@
 # OS CPU Scheduling Simulator (Project C5)
 **Comparative Analysis: Round Robin (RR) vs. Preemptive SJF (SRTF)**
 
-> 🎓 **Academic Project:** Submitted for the Operating Systems Course at the Faculty of Computers and Artificial Intelligence - Helwan University.
+>  **Academic Project:** Submitted for the Operating Systems Course at the Faculty of Computers and Artificial Intelligence - Helwan University.
 
 ---
 
